@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 import openai
 import os
 import csv
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 
 
 openai = OpenAI(
     model_name = "text-davinci-003"
